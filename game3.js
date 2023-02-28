@@ -26,14 +26,14 @@ const getresult = (userChoice, computerChoice)=>{
             case 'rockpaper':
 
             displayResult.innerHTML=('you select: '+ userChoice + ', computer select :' + computerChoice +  '- you lost')
-            break
+        break
 
             case 'scissorsscissors':
                 case 'paperpaper':
                 case 'rockrock':
 
-                displayResult.innerHTML=('you select: '+ userChoice + ', computer select :' + computerChoice +  '- its a game')
-                break
+            displayResult.innerHTML=('you select: '+ userChoice + ', computer select :' + computerChoice +  '- its a game')
+        break
 
     }
 }
